@@ -1,4 +1,4 @@
-package com.manayi.study.shiro.chapter2;
+package com.manayi.study.shiro.chapter3.chapter2;
 
 import junit.framework.Assert;
 import org.apache.shiro.SecurityUtils;
