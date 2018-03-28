@@ -1,4 +1,4 @@
-package com.manayi.study.shiro.chapter3.chapter2.realm;
+package com.manayi.study.shiro.chapter2.realm;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.authc.*;

@@ -1,4 +1,4 @@
-package com.manayi.study.shiro.chapter3.chapter2;
+package com.manayi.study.shiro.chapter2;
 
 import junit.framework.Assert;
 import org.apache.shiro.SecurityUtils;
@@ -22,8 +22,8 @@ public class LoginLogoutTest {
     @Test
     public void testAuthentication() {
         //1、创建使用Ini配置文件的SecurityManager工厂，
-//        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
-        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro-realm.ini");
+        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
+//        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro-realm.ini");
         //2、获取SecurityManager，并绑定给SecurityUtils
         SecurityManager securityManager = factory.getInstance();
         SecurityUtils.setSecurityManager(securityManager);
